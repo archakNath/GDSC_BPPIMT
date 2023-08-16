@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gdsc_bppimt/screens/eventscreen.dart';
 import 'package:gdsc_bppimt/screens/homepage.dart';
+import 'package:gdsc_bppimt/screens/leadpage.dart';
 import 'package:gdsc_bppimt/screens/welcomepage.dart';
 
 void main() {
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
         'welcomepage':(context)=>const WelcomeScreen(),
         'home':(context)=>const HomePage(),
         'event':(context)=>const EventScreen(),
+        'lead':(context)=>const LeadPage(),
       },
 
     );
