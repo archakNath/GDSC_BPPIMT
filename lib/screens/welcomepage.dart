@@ -19,7 +19,7 @@ class WelcomeScreen extends StatelessWidget {
         alignment: Alignment.center,
         padding:  const EdgeInsets.all(30),
             height: 750,
-            decoration:  BoxDecoration(
+            decoration:  const BoxDecoration(
                 color: Colors.white,
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(40)
@@ -28,19 +28,19 @@ class WelcomeScreen extends StatelessWidget {
             // change
               child: Column(
                 children: [
-                  SizedBox(height: 50),
+                  const SizedBox(height: 50),
                   Text('Lorem ipsum dolor sit amet',style: GoogleFonts.poppins(
                     fontSize: 10,color: Colors.black45,
                     decoration: TextDecoration.none,
                     fontWeight: FontWeight.normal,
                   ),),
-                  SizedBox(height: 10),
+                   const SizedBox(height: 10),
                   Text('GDSC',style: GoogleFonts.poppins(
                     fontSize: 20,color: Colors.black87,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.none,
                   ),),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   Text('Lorem ipsum dolor sit amet, consectetur \n adipiscing elit, ',
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
@@ -48,8 +48,8 @@ class WelcomeScreen extends StatelessWidget {
                     decoration: TextDecoration.none,
                     fontWeight: FontWeight.normal,
                   ),),
-                SizedBox(height: 60,),
-                Image(image:AssetImage('assets/images/gdscboy.png')),
+                const SizedBox(height: 60,),
+                const Image(image:AssetImage('assets/images/gdscboy.png')),
                 ],
               ),
 
@@ -92,7 +92,7 @@ class WelcomeScreen extends StatelessWidget {
 
                     decoration: TextDecoration.none,
                   ),),
-                  SizedBox(height: 1),
+                  const SizedBox(height: 1),
 
                   Text('GDSC BPPIMT',style: GoogleFonts.poppins(
                     color: Colors.white,
@@ -126,7 +126,7 @@ class WelcomeScreen extends StatelessWidget {
                 width: 5,
               ) ,
 
-              borderRadius: BorderRadius.all(
+              borderRadius: const BorderRadius.all(
                 Radius.circular(30),
               )
             ),
