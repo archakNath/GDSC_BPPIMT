@@ -14,12 +14,10 @@ class _EventScreenState extends State<EventScreen> {
         body: Container(
 
             child:Column(
-            children: const [
-              SizedBox(height: 30,),
-            Image(image:AssetImage('assets/images/info.webp')),
-              Image(image:AssetImage('assets/images/info.webp'))
-
-    ] ))
+              children: [
+                Text('Events')
+              ],
+            ))
     );
   }
 }

@@ -28,20 +28,21 @@ class WelcomeScreen extends StatelessWidget {
             // change
               child: Column(
                 children: [
-                  const SizedBox(height: 50),
-                  Text('Lorem ipsum dolor sit amet',style: GoogleFonts.poppins(
-                    fontSize: 10,color: Colors.black45,
-                    decoration: TextDecoration.none,
-                    fontWeight: FontWeight.normal,
-                  ),),
-                   const SizedBox(height: 10),
+                   const SizedBox(height: 50),
                   Text('GDSC',style: GoogleFonts.poppins(
                     fontSize: 20,color: Colors.black87,
                     fontWeight: FontWeight.bold,
                     decoration: TextDecoration.none,
                   ),),
+                    const SizedBox(height: 0),
+                  Text('B.P. Poddar Institute of Management and Technology',style: GoogleFonts.poppins(
+                    fontSize: 10,color: Color.fromARGB(255, 0, 0, 0),
+                    decoration: TextDecoration.none,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textAlign: TextAlign.center,),
                   const SizedBox(height: 10),
-                  Text('Lorem ipsum dolor sit amet, consectetur \n adipiscing elit, ',
+                  Text('Empowering Innovators, Building Communities.',
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
                       fontSize: 10,color: Colors.black45,
@@ -89,7 +90,6 @@ class WelcomeScreen extends StatelessWidget {
                     color: Colors.white,
                     fontSize: 17,
                     fontWeight: FontWeight.normal,
-
                     decoration: TextDecoration.none,
                   ),),
                   const SizedBox(height: 1),
